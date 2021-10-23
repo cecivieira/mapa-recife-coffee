@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_87418773d4e84de181e1e524ffe6afcf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_87418773d4e84de181e1e524ffe6afcf" ></div>
+        
+</body>
+<script>    
+    
+            var map_87418773d4e84de181e1e524ffe6afcf = L.map(
+                "map_87418773d4e84de181e1e524ffe6afcf",
+                {
+                    center: [-8.056608873022698, -34.89952347323082],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    title: "Recife Coffee 2021",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ec4f3589c22d446ba44901a63d8d47eb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var marker_cfa043e2a2644d4caa26a39189a75562 = L.marker(
+                [-8.05013240889161, -34.95860768857569],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_58724460280c4a71b2cf312c61bb8ad4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_cfa043e2a2644d4caa26a39189a75562.setIcon(icon_58724460280c4a71b2cf312c61bb8ad4);
+        
+    
+        var popup_1023d5772b4443bf87576acfacefece0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74f8f86edcba4641b7bf61c23d05e5bc = $(`<div id="html_74f8f86edcba4641b7bf61c23d05e5bc" style="width: 100.0%; height: 100.0%;">             <img src='imagens/a-vida-e-bela.png' height='450'>              <br>              <b>Horário:</b>             <br>             Terça a Sábado - 14h às 20h             <br>             <a href="https://www.instagram.com/avidaebela.cafe ">https://www.instagram.com/avidaebela.cafe </a>         </div>`)[0];
+            popup_1023d5772b4443bf87576acfacefece0.setContent(html_74f8f86edcba4641b7bf61c23d05e5bc);
+        
+
+        marker_cfa043e2a2644d4caa26a39189a75562.bindPopup(popup_1023d5772b4443bf87576acfacefece0)
+        ;
+
+        
+    
+    
+            marker_cfa043e2a2644d4caa26a39189a75562.bindTooltip(
+                `<div>
+                     
+            <b>A vida é bela</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c48015e3ae27406c878fd8e16eb0ebb7 = L.marker(
+                [-8.0515953250438, -34.909794673230785],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_c82e7eb300104838aefd5afd27027a78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_c48015e3ae27406c878fd8e16eb0ebb7.setIcon(icon_c82e7eb300104838aefd5afd27027a78);
+        
+    
+        var popup_9cce2a72b41e432e8106a3410801cfde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e11e423a62c44cb6adddac0698db3690 = $(`<div id="html_e11e423a62c44cb6adddac0698db3690" style="width: 100.0%; height: 100.0%;">             <img src='imagens/artisano.png' height='450'>              <br>              <b>Horário:</b>             <br>             Segunda a Quinta - 12h às 20h Sextas - 12h às 21h Sábados - 15h às 21h Domingos 15h às 20h             <br>             <a href="https://www.instagram.com/artisanocafe ">https://www.instagram.com/artisanocafe </a>         </div>`)[0];
+            popup_9cce2a72b41e432e8106a3410801cfde.setContent(html_e11e423a62c44cb6adddac0698db3690);
+        
+
+        marker_c48015e3ae27406c878fd8e16eb0ebb7.bindPopup(popup_9cce2a72b41e432e8106a3410801cfde)
+        ;
+
+        
+    
+    
+            marker_c48015e3ae27406c878fd8e16eb0ebb7.bindTooltip(
+                `<div>
+                     
+            <b>Artisano café e cozinha</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a80a116224344479fd1b65eb332259d = L.marker(
+                [-8.061159360596644, -34.87160533275631],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_1f0e572275d24e7da9af573fc9c7a082 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_7a80a116224344479fd1b65eb332259d.setIcon(icon_1f0e572275d24e7da9af573fc9c7a082);
+        
+    
+        var popup_1cff492aa7074ca2a06ba26c16755229 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29a3860792e14f56a9ec6faac0de2610 = $(`<div id="html_29a3860792e14f56a9ec6faac0de2610" style="width: 100.0%; height: 100.0%;">             <img src='imagens/aurora-cafe.png' height='450'>              <br>              <b>Horário:</b>             <br>             Conferir horário do Museu Paço do Frevo             <br>             <a href="https://www.instagram.com/auroracafe.recife ">https://www.instagram.com/auroracafe.recife </a>         </div>`)[0];
+            popup_1cff492aa7074ca2a06ba26c16755229.setContent(html_29a3860792e14f56a9ec6faac0de2610);
+        
+
+        marker_7a80a116224344479fd1b65eb332259d.bindPopup(popup_1cff492aa7074ca2a06ba26c16755229)
+        ;
+
+        
+    
+    
+            marker_7a80a116224344479fd1b65eb332259d.bindTooltip(
+                `<div>
+                     
+            <b>Aurora café</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bfbe030531924beaa101ae187856afff = L.marker(
+                [-8.03629104822577, -34.89937635973956],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_b26627bf54fd4aa08150a1b348274263 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_bfbe030531924beaa101ae187856afff.setIcon(icon_b26627bf54fd4aa08150a1b348274263);
+        
+    
+        var popup_654715d4344248e3827efb96e1055828 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9235148a90649678d42d9ab370602f5 = $(`<div id="html_f9235148a90649678d42d9ab370602f5" style="width: 100.0%; height: 100.0%;">             <img src='imagens/cafe-com-dengo.png' height='450'>              <br>              <b>Horário:</b>             <br>             Segunda a Sábado - 11h30 às 20h             <br>             <a href="https://www.instagram.com/cafecomdengo ">https://www.instagram.com/cafecomdengo </a>         </div>`)[0];
+            popup_654715d4344248e3827efb96e1055828.setContent(html_f9235148a90649678d42d9ab370602f5);
+        
+
+        marker_bfbe030531924beaa101ae187856afff.bindPopup(popup_654715d4344248e3827efb96e1055828)
+        ;
+
+        
+    
+    
+            marker_bfbe030531924beaa101ae187856afff.bindTooltip(
+                `<div>
+                     
+            <b>Café com dengo</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b55e3a225a845bf9754d49271ad8a16 = L.marker(
+                [-9.39836952728938, -40.49894510020595],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_632c0c61d0464568bc677ecfabb42402 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_5b55e3a225a845bf9754d49271ad8a16.setIcon(icon_632c0c61d0464568bc677ecfabb42402);
+        
+    
+        var popup_a5b9508bd4e040f8b2f6dfaddf443f26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e470056c20fe4f53aedc86cc201dffc5 = $(`<div id="html_e470056c20fe4f53aedc86cc201dffc5" style="width: 100.0%; height: 100.0%;">             <img src='imagens/cafe-no-bule.png' height='450'>              <br>              <b>Horário:</b>             <br>             Segunda a Sexta - 14h às 21h Sábados - 16h às 21h             <br>             <a href="https://www.instagram.com/cafedebule ">https://www.instagram.com/cafedebule </a>         </div>`)[0];
+            popup_a5b9508bd4e040f8b2f6dfaddf443f26.setContent(html_e470056c20fe4f53aedc86cc201dffc5);
+        
+
+        marker_5b55e3a225a845bf9754d49271ad8a16.bindPopup(popup_a5b9508bd4e040f8b2f6dfaddf443f26)
+        ;
+
+        
+    
+    
+            marker_5b55e3a225a845bf9754d49271ad8a16.bindTooltip(
+                `<div>
+                     
+            <b>Café de bule</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_022dcedd0f7b48ddb15cc1a96398e9cd = L.marker(
+                [-8.043438335364826, -34.8931667597394],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_4957791929b342c3b2ce9171fffa5eff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_022dcedd0f7b48ddb15cc1a96398e9cd.setIcon(icon_4957791929b342c3b2ce9171fffa5eff);
+        
+    
+        var popup_9b7bce1673944c58b7824cdb58aba5a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_520d87efb7cf4413ade69b7c5e3e3dc9 = $(`<div id="html_520d87efb7cf4413ade69b7c5e3e3dc9" style="width: 100.0%; height: 100.0%;">             <img src='imagens/cafe-mais-prosa.png' height='450'>              <br>              <b>Horário:</b>             <br>             Segunda a sexta - 14h às 21h Sábado e domingo - 15h às 21h             <br>             <a href="https://www.instagram.com/cafemaisprosa ">https://www.instagram.com/cafemaisprosa </a>         </div>`)[0];
+            popup_9b7bce1673944c58b7824cdb58aba5a0.setContent(html_520d87efb7cf4413ade69b7c5e3e3dc9);
+        
+
+        marker_022dcedd0f7b48ddb15cc1a96398e9cd.bindPopup(popup_9b7bce1673944c58b7824cdb58aba5a0)
+        ;
+
+        
+    
+    
+            marker_022dcedd0f7b48ddb15cc1a96398e9cd.bindTooltip(
+                `<div>
+                     
+            <b>Café com prosa</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cce10de99b8403f97b6a089b8408afe = L.marker(
+                [-8.032140369743894, -34.9132939443947],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_4c09081c8cb1416f9cd8a5e1eb67b871 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_9cce10de99b8403f97b6a089b8408afe.setIcon(icon_4c09081c8cb1416f9cd8a5e1eb67b871);
+        
+    
+        var popup_3ef0eb8d5fa945a3b626f35c1c054bbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd10584946024e478aebee269f8fd709 = $(`<div id="html_cd10584946024e478aebee269f8fd709" style="width: 100.0%; height: 100.0%;">             <img src='imagens/castigliani.png' height='450'>              <br>              <b>Horário:</b>             <br>             Todos os dias - 13h às 20h             <br>             <a href="https://www.instagram.com/castigliani ">https://www.instagram.com/castigliani </a>         </div>`)[0];
+            popup_3ef0eb8d5fa945a3b626f35c1c054bbc.setContent(html_cd10584946024e478aebee269f8fd709);
+        
+
+        marker_9cce10de99b8403f97b6a089b8408afe.bindPopup(popup_3ef0eb8d5fa945a3b626f35c1c054bbc)
+        ;
+
+        
+    
+    
+            marker_9cce10de99b8403f97b6a089b8408afe.bindTooltip(
+                `<div>
+                     
+            <b>Castigliani</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2174c4d3d9564d4da6fc816d9a72c2c7 = L.marker(
+                [-8.044271484819038, -34.90773184439447],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_166de5fcabaa439f945a74f170b45066 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_2174c4d3d9564d4da6fc816d9a72c2c7.setIcon(icon_166de5fcabaa439f945a74f170b45066);
+        
+    
+        var popup_b4d76185dc5a418e93cbec84775508b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64b3f9801b694ed9bf889050f5d67ade = $(`<div id="html_64b3f9801b694ed9bf889050f5d67ade" style="width: 100.0%; height: 100.0%;">             <img src='imagens/coffee-cube.png' height='450'>              <br>              <b>Horário:</b>             <br>             Domingo a Quinta - 12h às 22h Sexta e Sábado - 12h às 23h             <br>             <a href="https://www.instagram.com/coffeecubebr ">https://www.instagram.com/coffeecubebr </a>         </div>`)[0];
+            popup_b4d76185dc5a418e93cbec84775508b3.setContent(html_64b3f9801b694ed9bf889050f5d67ade);
+        
+
+        marker_2174c4d3d9564d4da6fc816d9a72c2c7.bindPopup(popup_b4d76185dc5a418e93cbec84775508b3)
+        ;
+
+        
+    
+    
+            marker_2174c4d3d9564d4da6fc816d9a72c2c7.bindTooltip(
+                `<div>
+                     
+            <b>Coffee cube</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5e787002631450ca4acf7342cc0a03f = L.marker(
+                [-8.033988652962014, -34.885913986722095],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_b0ef07597cd34fa2a31c91977eb32970 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_c5e787002631450ca4acf7342cc0a03f.setIcon(icon_b0ef07597cd34fa2a31c91977eb32970);
+        
+    
+        var popup_f9d116618ebe4709ac19e71bf2867da0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2041a8c0a5ca4812a597fcec70e80656 = $(`<div id="html_2041a8c0a5ca4812a597fcec70e80656" style="width: 100.0%; height: 100.0%;">             <img src='imagens/contem-cafe.png' height='450'>              <br>              <b>Horário:</b>             <br>             Segunda a Sexta - 14h30 às 20h Sábados e Domingos - 08h às 13h (café da manhã) e 15h às 20h             <br>             <a href="https://www.instagram.com/contem.cafe ">https://www.instagram.com/contem.cafe </a>         </div>`)[0];
+            popup_f9d116618ebe4709ac19e71bf2867da0.setContent(html_2041a8c0a5ca4812a597fcec70e80656);
+        
+
+        marker_c5e787002631450ca4acf7342cc0a03f.bindPopup(popup_f9d116618ebe4709ac19e71bf2867da0)
+        ;
+
+        
+    
+    
+            marker_c5e787002631450ca4acf7342cc0a03f.bindTooltip(
+                `<div>
+                     
+            <b>Contém café</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d5d479812df49269b84718cdadac258 = L.marker(
+                [-8.045526714586952, -34.895048957109225],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_4920e688485848cfb6cf87c1e0048cd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_5d5d479812df49269b84718cdadac258.setIcon(icon_4920e688485848cfb6cf87c1e0048cd4);
+        
+    
+        var popup_141b8545a1f64400bb1b7b73ab3e2bf4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e08832efb27842ed8bfb8a274d4f946e = $(`<div id="html_e08832efb27842ed8bfb8a274d4f946e" style="width: 100.0%; height: 100.0%;">             <img src='imagens/ernest-cafe-bistro.png' height='450'>              <br>              <b>Horário:</b>             <br>             Segunda a Sexta - 11h às 20h Sábado - 15h às 20h (apenas a partir de 05/nov) Domingo - 9h às 12h | 15h às 20h (apenas a partir de 05/nov)             <br>             <a href="https://www.instagram.com/ernestcafebistro ">https://www.instagram.com/ernestcafebistro </a>         </div>`)[0];
+            popup_141b8545a1f64400bb1b7b73ab3e2bf4.setContent(html_e08832efb27842ed8bfb8a274d4f946e);
+        
+
+        marker_5d5d479812df49269b84718cdadac258.bindPopup(popup_141b8545a1f64400bb1b7b73ab3e2bf4)
+        ;
+
+        
+    
+    
+            marker_5d5d479812df49269b84718cdadac258.bindTooltip(
+                `<div>
+                     
+            <b>Ernest café bistrô</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2549103a4b4464c8689239251dae519 = L.marker(
+                [-8.139416065810762, -34.907598644394014],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_2d336fe32fa94590a054a2e14b781452 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_f2549103a4b4464c8689239251dae519.setIcon(icon_2d336fe32fa94590a054a2e14b781452);
+        
+    
+        var popup_af7401a83a4b476593e99d2b84fa4e73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ecc230a3d7b44edab71fbdfbd5952eb = $(`<div id="html_3ecc230a3d7b44edab71fbdfbd5952eb" style="width: 100.0%; height: 100.0%;">             <img src='imagens/fervo-coffee.png' height='450'>              <br>              <b>Horário:</b>             <br>             Terça e quarta - 16h às 22h Quinta - 16h às 00h Sexta e Sábado - 16h às 01h Domingo - 16h às 22h             <br>             <a href="https://www.instagram.com/fervocoffeeshop ">https://www.instagram.com/fervocoffeeshop </a>         </div>`)[0];
+            popup_af7401a83a4b476593e99d2b84fa4e73.setContent(html_3ecc230a3d7b44edab71fbdfbd5952eb);
+        
+
+        marker_f2549103a4b4464c8689239251dae519.bindPopup(popup_af7401a83a4b476593e99d2b84fa4e73)
+        ;
+
+        
+    
+    
+            marker_f2549103a4b4464c8689239251dae519.bindTooltip(
+                `<div>
+                     
+            <b>Fervo coffee shop</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85917fcb3c744d34baa6ea72cad8c281 = L.marker(
+                [-8.19236494257081, -34.9222297309024],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_085cce3685794a32abb4294f359edf80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_85917fcb3c744d34baa6ea72cad8c281.setIcon(icon_085cce3685794a32abb4294f359edf80);
+        
+    
+        var popup_1bb33819b6484d909706e9828d0a492b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be7d736bff65459b862e51591ba436e5 = $(`<div id="html_be7d736bff65459b862e51591ba436e5" style="width: 100.0%; height: 100.0%;">             <img src='imagens/fridda-cafe.png' height='450'>              <br>              <b>Horário:</b>             <br>             Terça a Sexta - 15h às 21h Sábados e Domingos -9h às 21h             <br>             <a href="https://www.instagram.com/friddacafe ">https://www.instagram.com/friddacafe </a>         </div>`)[0];
+            popup_1bb33819b6484d909706e9828d0a492b.setContent(html_be7d736bff65459b862e51591ba436e5);
+        
+
+        marker_85917fcb3c744d34baa6ea72cad8c281.bindPopup(popup_1bb33819b6484d909706e9828d0a492b)
+        ;
+
+        
+    
+    
+            marker_85917fcb3c744d34baa6ea72cad8c281.bindTooltip(
+                `<div>
+                     
+            <b>Fridda café</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb3905c5610b446bb363348d27398aec = L.marker(
+                [-8.045438752771899, -34.89380956741169],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_8b97776aa9ad44fdaf70e417a47059a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_fb3905c5610b446bb363348d27398aec.setIcon(icon_8b97776aa9ad44fdaf70e417a47059a7);
+        
+    
+        var popup_997a6015261d4bdc888e582e6d2ae982 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9e77138432c46cca415cb1f69bb0768 = $(`<div id="html_f9e77138432c46cca415cb1f69bb0768" style="width: 100.0%; height: 100.0%;">             <img src='imagens/grao-cheff.png' height='450'>              <br>              <b>Horário:</b>             <br>             Segunda a Sexta - 10h às 20h Sábado e Domingo - 14h às 20h             <br>             <a href="https://www.instagram.com/graocheffcafes ">https://www.instagram.com/graocheffcafes </a>         </div>`)[0];
+            popup_997a6015261d4bdc888e582e6d2ae982.setContent(html_f9e77138432c46cca415cb1f69bb0768);
+        
+
+        marker_fb3905c5610b446bb363348d27398aec.bindPopup(popup_997a6015261d4bdc888e582e6d2ae982)
+        ;
+
+        
+    
+    
+            marker_fb3905c5610b446bb363348d27398aec.bindTooltip(
+                `<div>
+                     
+            <b>Grão cheff</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b4946e808d047bb90c464e876272a65 = L.marker(
+                [-8.108479211672766, -34.89039845973919],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_5edbf0d464ec49e88ec8f0fb4a7a2325 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_8b4946e808d047bb90c464e876272a65.setIcon(icon_5edbf0d464ec49e88ec8f0fb4a7a2325);
+        
+    
+        var popup_1a18b984239446519bccd6605a950585 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50242f7e82af49beac673d4f065b5898 = $(`<div id="html_50242f7e82af49beac673d4f065b5898" style="width: 100.0%; height: 100.0%;">             <img src='imagens/kaffe.png' height='450'>              <br>              <b>Horário:</b>             <br>             Segunda a Sábado - 11h30 às 19h Domingo - 14h às 19h             <br>             <a href="https://www.instagram.com/kaffe.tt ">https://www.instagram.com/kaffe.tt </a>         </div>`)[0];
+            popup_1a18b984239446519bccd6605a950585.setContent(html_50242f7e82af49beac673d4f065b5898);
+        
+
+        marker_8b4946e808d047bb90c464e876272a65.bindPopup(popup_1a18b984239446519bccd6605a950585)
+        ;
+
+        
+    
+    
+            marker_8b4946e808d047bb90c464e876272a65.bindTooltip(
+                `<div>
+                     
+            <b>Kaffe</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c9c660c9ce64f169b506c7ab36dd7a9 = L.marker(
+                [-8.044508829054537, -34.899580803920315],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_48cb08d432ee4d0da4a3753051c652a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_0c9c660c9ce64f169b506c7ab36dd7a9.setIcon(icon_48cb08d432ee4d0da4a3753051c652a5);
+        
+    
+        var popup_1d4b7c3368864b2eb23dfa80d6e7b2c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf405aa7a0344894886ac9cb0e16f864 = $(`<div id="html_cf405aa7a0344894886ac9cb0e16f864" style="width: 100.0%; height: 100.0%;">             <img src='imagens/lala.png' height='450'>              <br>              <b>Horário:</b>             <br>             Segunda a Sexta - 12h às 20h Sábado e Domingo - 9h às 13h [brunch] | 15h às 21h              <br>             <a href="https://www.instagram.com/lala.cafe ">https://www.instagram.com/lala.cafe </a>         </div>`)[0];
+            popup_1d4b7c3368864b2eb23dfa80d6e7b2c3.setContent(html_cf405aa7a0344894886ac9cb0e16f864);
+        
+
+        marker_0c9c660c9ce64f169b506c7ab36dd7a9.bindPopup(popup_1d4b7c3368864b2eb23dfa80d6e7b2c3)
+        ;
+
+        
+    
+    
+            marker_0c9c660c9ce64f169b506c7ab36dd7a9.bindTooltip(
+                `<div>
+                     
+            <b>Lalá</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c19c67ef5df04e558cea89b923be7bab = L.marker(
+                [-8.034071576539324, -34.919515044394714],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_16aee7768d3341419ce4023ff5468949 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_c19c67ef5df04e558cea89b923be7bab.setIcon(icon_16aee7768d3341419ce4023ff5468949);
+        
+    
+        var popup_aa0dfd0cf21945cca263eb78da5f0863 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0aeeffd901834350a08a0fdc1f47c21a = $(`<div id="html_0aeeffd901834350a08a0fdc1f47c21a" style="width: 100.0%; height: 100.0%;">             <img src='imagens/livraria-praca-casa-forte.png' height='450'>              <br>              <b>Horário:</b>             <br>             Segunda a sexta - 8h as 20h             <br>             <a href="https://www.instagram.com/livrariadapraca ">https://www.instagram.com/livrariadapraca </a>         </div>`)[0];
+            popup_aa0dfd0cf21945cca263eb78da5f0863.setContent(html_0aeeffd901834350a08a0fdc1f47c21a);
+        
+
+        marker_c19c67ef5df04e558cea89b923be7bab.bindPopup(popup_aa0dfd0cf21945cca263eb78da5f0863)
+        ;
+
+        
+    
+    
+            marker_c19c67ef5df04e558cea89b923be7bab.bindTooltip(
+                `<div>
+                     
+            <b>Livraria da praça de Casa Forte</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a2128b733764ae69b607a4241f60824 = L.marker(
+                [-8.049910501223723, -34.95801581555844],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_54144c1f1c8f4dc2a436361e18d8b8be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_4a2128b733764ae69b607a4241f60824.setIcon(icon_54144c1f1c8f4dc2a436361e18d8b8be);
+        
+    
+        var popup_83b0a12d376c4bdca9b5b87bf628fc77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_614a4f0dced64c8499f970b815e4b591 = $(`<div id="html_614a4f0dced64c8499f970b815e4b591" style="width: 100.0%; height: 100.0%;">             <img src='imagens/o-melhor-cantinho-cidade.png' height='450'>              <br>              <b>Horário:</b>             <br>             Sábados e feriados - 10h as 19h             <br>             <a href="https://www.instagram.com/omelhorcantinhodacidade ">https://www.instagram.com/omelhorcantinhodacidade </a>         </div>`)[0];
+            popup_83b0a12d376c4bdca9b5b87bf628fc77.setContent(html_614a4f0dced64c8499f970b815e4b591);
+        
+
+        marker_4a2128b733764ae69b607a4241f60824.bindPopup(popup_83b0a12d376c4bdca9b5b87bf628fc77)
+        ;
+
+        
+    
+    
+            marker_4a2128b733764ae69b607a4241f60824.bindTooltip(
+                `<div>
+                     
+            <b>O melhor cantinho da cidade</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ce9dbf9fceb475d8373fb26b51fa1f0 = L.marker(
+                [-7.99218622486877, -34.839122815558554],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_54e580fbed9849f7a34c764f002274df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_7ce9dbf9fceb475d8373fb26b51fa1f0.setIcon(icon_54e580fbed9849f7a34c764f002274df);
+        
+    
+        var popup_9e1e584e06b542daa477a136dc3cb8bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed3bea0d6d994e0a80b6b28ca1055cf8 = $(`<div id="html_ed3bea0d6d994e0a80b6b28ca1055cf8" style="width: 100.0%; height: 100.0%;">             <img src='imagens/olinda-cafe.png' height='450'>              <br>              <b>Horário:</b>             <br>             Domingos - 11h as 20h             <br>             <a href="https://www.instagram.com/olindacafe_ ">https://www.instagram.com/olindacafe_ </a>         </div>`)[0];
+            popup_9e1e584e06b542daa477a136dc3cb8bc.setContent(html_ed3bea0d6d994e0a80b6b28ca1055cf8);
+        
+
+        marker_7ce9dbf9fceb475d8373fb26b51fa1f0.bindPopup(popup_9e1e584e06b542daa477a136dc3cb8bc)
+        ;
+
+        
+    
+    
+            marker_7ce9dbf9fceb475d8373fb26b51fa1f0.bindTooltip(
+                `<div>
+                     
+            <b>Olinda café</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47903534545c49e79e16104e757bfdd1 = L.marker(
+                [-8.064596516853813, -34.896697986722266],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_78ab35478775438ab43c2fdad2a338c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_47903534545c49e79e16104e757bfdd1.setIcon(icon_78ab35478775438ab43c2fdad2a338c0);
+        
+    
+        var popup_a5c94d4950f34cdf9d1260437444aafd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f574369664c54e88869bee8df7403184 = $(`<div id="html_f574369664c54e88869bee8df7403184" style="width: 100.0%; height: 100.0%;">             <img src='imagens/palatsi.png' height='450'>              <br>              <b>Horário:</b>             <br>             Segunda a Sexta - 7h30 às 20h             <br>             <a href="https://www.instagram.com/palatsirecife ">https://www.instagram.com/palatsirecife </a>         </div>`)[0];
+            popup_a5c94d4950f34cdf9d1260437444aafd.setContent(html_f574369664c54e88869bee8df7403184);
+        
+
+        marker_47903534545c49e79e16104e757bfdd1.bindPopup(popup_a5c94d4950f34cdf9d1260437444aafd)
+        ;
+
+        
+    
+    
+            marker_47903534545c49e79e16104e757bfdd1.bindTooltip(
+                `<div>
+                     
+            <b>Palatsi</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1adb7667f0d740b599c1de6b652fd83d = L.marker(
+                [-8.048289484722805, -34.90129377508412],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_58e2629553f447318a225965db2086ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_1adb7667f0d740b599c1de6b652fd83d.setIcon(icon_58e2629553f447318a225965db2086ff);
+        
+    
+        var popup_7c3d7e80b61b419891679659a939ec65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f483ed254984a6c8857f948bc2c43d0 = $(`<div id="html_4f483ed254984a6c8857f948bc2c43d0" style="width: 100.0%; height: 100.0%;">             <img src='imagens/santa-clara-gracas.png' height='450'>              <br>              <b>Horário:</b>             <br>             Sábado e Domingo - 15h às 20h             <br>             <a href="https://www.instagram.com/santaclararecife ">https://www.instagram.com/santaclararecife </a>         </div>`)[0];
+            popup_7c3d7e80b61b419891679659a939ec65.setContent(html_4f483ed254984a6c8857f948bc2c43d0);
+        
+
+        marker_1adb7667f0d740b599c1de6b652fd83d.bindPopup(popup_7c3d7e80b61b419891679659a939ec65)
+        ;
+
+        
+    
+    
+            marker_1adb7667f0d740b599c1de6b652fd83d.bindTooltip(
+                `<div>
+                     
+            <b>Santa Clara café</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d0cb83de72b482ca6a664752bab3824 = L.marker(
+                [-8.03308912308165, -34.90868390206719],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_a5668628553647daac9de73fe518e89e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_8d0cb83de72b482ca6a664752bab3824.setIcon(icon_a5668628553647daac9de73fe518e89e);
+        
+    
+        var popup_a169366029f64d7f86a13daebd10bd32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3e69a5c6e3541338c73a94c6acf35cc = $(`<div id="html_a3e69a5c6e3541338c73a94c6acf35cc" style="width: 100.0%; height: 100.0%;">             <img src='imagens/santa-clara-parnamirim.png' height='450'>              <br>              <b>Horário:</b>             <br>             Todos os dias - 08h às 21h             <br>             <a href="https://www.instagram.com/santaclararecife ">https://www.instagram.com/santaclararecife </a>         </div>`)[0];
+            popup_a169366029f64d7f86a13daebd10bd32.setContent(html_a3e69a5c6e3541338c73a94c6acf35cc);
+        
+
+        marker_8d0cb83de72b482ca6a664752bab3824.bindPopup(popup_a169366029f64d7f86a13daebd10bd32)
+        ;
+
+        
+    
+    
+            marker_8d0cb83de72b482ca6a664752bab3824.bindTooltip(
+                `<div>
+                     
+            <b>Santa Clara café</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b81586675c1f4dcd9360253b71b8be59 = L.marker(
+                [-8.038317432149212, -34.90097141741184],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_1cfffc357a5a4866aa3a4691158a15a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_b81586675c1f4dcd9360253b71b8be59.setIcon(icon_1cfffc357a5a4866aa3a4691158a15a1);
+        
+    
+        var popup_06f9eef695ce46469f93a53102491fd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f16b9059a4494874a3b0b9d471499df9 = $(`<div id="html_f16b9059a4494874a3b0b9d471499df9" style="width: 100.0%; height: 100.0%;">             <img src='imagens/tokyos.png' height='450'>              <br>              <b>Horário:</b>             <br>             De terça a domingo de 14:00 as 22:00             <br>             <a href="https://www.instagram.com/tokyosrecife ">https://www.instagram.com/tokyosrecife </a>         </div>`)[0];
+            popup_06f9eef695ce46469f93a53102491fd2.setContent(html_f16b9059a4494874a3b0b9d471499df9);
+        
+
+        marker_b81586675c1f4dcd9360253b71b8be59.bindPopup(popup_06f9eef695ce46469f93a53102491fd2)
+        ;
+
+        
+    
+    
+            marker_b81586675c1f4dcd9360253b71b8be59.bindTooltip(
+                `<div>
+                     
+            <b>Tokyo’s café</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e63e664e267a40049fb8880afc2591f0 = L.marker(
+                [-8.045285868873243, -34.89783485788617],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_198b6aa9120b428687cd92a2d2b424aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_e63e664e267a40049fb8880afc2591f0.setIcon(icon_198b6aa9120b428687cd92a2d2b424aa);
+        
+    
+        var popup_8c8a3b99aae949a38c3119d11a13358f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_beb7eb6f7f814e248dccb1b19809a424 = $(`<div id="html_beb7eb6f7f814e248dccb1b19809a424" style="width: 100.0%; height: 100.0%;">             <img src='imagens/versado.png' height='450'>              <br>              <b>Horário:</b>             <br>             Segunda a Sábado - 10h às 19h             <br>             <a href="https://www.instagram.com/versadocafe ">https://www.instagram.com/versadocafe </a>         </div>`)[0];
+            popup_8c8a3b99aae949a38c3119d11a13358f.setContent(html_beb7eb6f7f814e248dccb1b19809a424);
+        
+
+        marker_e63e664e267a40049fb8880afc2591f0.bindPopup(popup_8c8a3b99aae949a38c3119d11a13358f)
+        ;
+
+        
+    
+    
+            marker_e63e664e267a40049fb8880afc2591f0.bindTooltip(
+                `<div>
+                     
+            <b>Versado</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3012fa7f68d9495ab918eead3de6344d = L.marker(
+                [-8.006161963492104, -34.84364573090327],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_3eb7f41d3e894428860de25cd170c19d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_3012fa7f68d9495ab918eead3de6344d.setIcon(icon_3eb7f41d3e894428860de25cd170c19d);
+        
+    
+        var popup_c1c08ca3675d465fadb81cc6afbb1b3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eee7031a60a042469414d0296a21af79 = $(`<div id="html_eee7031a60a042469414d0296a21af79" style="width: 100.0%; height: 100.0%;">             <img src='imagens/xero.png' height='450'>              <br>              <b>Horário:</b>             <br>             Terça a Sábado - 16h30 às 21h Domingo - 16h às 20h             <br>             <a href="https://www.instagram.com/xerocafe ">https://www.instagram.com/xerocafe </a>         </div>`)[0];
+            popup_c1c08ca3675d465fadb81cc6afbb1b3a.setContent(html_eee7031a60a042469414d0296a21af79);
+        
+
+        marker_3012fa7f68d9495ab918eead3de6344d.bindPopup(popup_c1c08ca3675d465fadb81cc6afbb1b3a)
+        ;
+
+        
+    
+    
+            marker_3012fa7f68d9495ab918eead3de6344d.bindTooltip(
+                `<div>
+                     
+            <b>Xêro café e arte</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de926b8f4f1544cabe347ebb9e889e2b = L.marker(
+                [-7.9892575, -34.8405186],
+                {}
+            ).addTo(map_87418773d4e84de181e1e524ffe6afcf);
+        
+    
+            var icon_18e19cb14c5d40678f72c56118e208a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_de926b8f4f1544cabe347ebb9e889e2b.setIcon(icon_18e19cb14c5d40678f72c56118e208a5);
+        
+    
+        var popup_99c505ab39474524961c0b0fddfae252 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ea49fa1bb63463facda74edf5ba27e3 = $(`<div id="html_6ea49fa1bb63463facda74edf5ba27e3" style="width: 100.0%; height: 100.0%;">             <img src='imagens/zoco.png' height='450'>              <br>              <b>Horário:</b>             <br>             Terça a Domingo - 15h às 20h30             <br>             <a href="https://www.instagram.com/cafezoco">https://www.instagram.com/cafezoco</a>         </div>`)[0];
+            popup_99c505ab39474524961c0b0fddfae252.setContent(html_6ea49fa1bb63463facda74edf5ba27e3);
+        
+
+        marker_de926b8f4f1544cabe347ebb9e889e2b.bindPopup(popup_99c505ab39474524961c0b0fddfae252)
+        ;
+
+        
+    
+    
+            marker_de926b8f4f1544cabe347ebb9e889e2b.bindTooltip(
+                `<div>
+                     
+            <b>Zoco café e delícias</b>
+            <br>
+            Clique para saber mais
+        
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
