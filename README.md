@@ -25,5 +25,5 @@ pip install -r requirements.txt
 ```
 
 # Referências
-[Creating Interactive Maps with Python - Jéssica Temporal](https://youtu.be/FdqDgoG-SFM)
-[Festival Recife Coffee 2021](https://www.instagram.com/recifecoffeeoficial/)
+- [Creating Interactive Maps with Python - Jéssica Temporal](https://youtu.be/FdqDgoG-SFM)
+- [Festival Recife Coffee 2021](https://www.instagram.com/recifecoffeeoficial/)
