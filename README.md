@@ -1,5 +1,5 @@
-# Mapa do festival Recife Coffee 2021
-Mapa com as cafeterias participantes do festival Recife Coffee 2021. Mais informações sobre seu desenvolvimento podem ser encontradas em https://cecivieira.com/criando-o-mapa-do-festival-recife-coffee-com-folium/
+# Mapa do festival Recife Coffee
+Mapa com as cafeterias participantes do festival Recife Coffee. Mais informações sobre seu desenvolvimento podem ser encontradas em https://cecivieira.com/criando-o-mapa-do-festival-recife-coffee-com-folium/
 
 # Tecnologias
 
@@ -26,4 +26,4 @@ pip install -r requirements.txt
 
 # Referências
 - [Creating Interactive Maps with Python - Jéssica Temporal](https://youtu.be/FdqDgoG-SFM)
-- [Festival Recife Coffee 2021](https://www.instagram.com/recifecoffeeoficial/)
+- [Festival Recife Coffee](https://www.instagram.com/recifecoffeeoficial/)
