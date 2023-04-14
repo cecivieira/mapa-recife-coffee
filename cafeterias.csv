@@ -1,60 +1,60 @@
-titulo,instagram,horario,menu,Nome-arquivo-menu,latitude,longitude
+titulo,instagram,horario,menu,latitude,longitude
 81 Coffee & Co.,81coffeeco,"segunda a sexta - 10h às 21h,
 sábado e domingo - 9h às 21h,
-feriado - 14h às 21h",imagens/81coffeeco.png,,-8.050167670278611, -34.898255859968295
-A vida é bela,avidaebela.cafe ,terça a sábado - 14h às 20h30,imagens/a-vida-e-bela.png,,-8.05013240889161, -34.95860768857569
+feriado - 14h às 21h",https://res.cloudinary.com/damhz6skt/image/upload/v1681491999/recife-coffee/81coffeeco_tawzdc.png,-8.050167670278611, -34.898255859968295
+A vida é bela,avidaebela.cafe ,terça a sábado - 14h às 20h30,https://res.cloudinary.com/damhz6skt/image/upload/v1681491999/recife-coffee/a-vida-e-bela_vd27eb.png,-8.05013240889161, -34.95860768857569
 Artisano café e cozinha,artisanocafe ,"segunda a quinta - 12h às 20h,
 sextas - 12h às 22h,
 sábados - 11h às 22h,
-domingos 15h às 20h",imagens/em-breve.png,imagens/artisano.png,-8.0515953250438, -34.909794673230785
+domingos 15h às 20h",https://res.cloudinary.com/damhz6skt/image/upload/v1681491952/recife-coffee/artisano_x2xcy4.png,-8.0515953250438, -34.909794673230785
 Aurora café,auroracafe.recife ,"terça à sexta - 10h às 18h30,
-sábado e domingo - 11h às 19h30",imagens/em-breve.png,imagens/aurora-cafe.png,-8.061159360596644, -34.87160533275631
-Borsoi Café,borsoicafe,todos os dias 8h-20h,imagens/em-breve.png,imagens/borsoi.png,-8.104291598434111, -34.88756250417415
-Café com dengo,cafecomdengo ,segunda a sábado - 11h30 às 20h,imagens/em-breve.png,imagens/cafe-com-dengo.png,-8.03629104822577, -34.899376359739556
+sábado e domingo - 11h às 19h30",https://res.cloudinary.com/damhz6skt/image/upload/v1681491952/recife-coffee/aurora-cafe_qqzy3v.png,-8.061159360596644, -34.87160533275631
+Borsoi Café,borsoicafe,todos os dias 8h-20h,https://res.cloudinary.com/damhz6skt/image/upload/v1681491952/recife-coffee/borsoi_hmmgta.png,-8.104291598434111, -34.88756250417415
+Café com dengo,cafecomdengo ,segunda a sábado - 11h30 às 20h,https://res.cloudinary.com/damhz6skt/image/upload/v1681491952/recife-coffee/cafe-com-dengo_mr7sgg.png,-8.03629104822577, -34.899376359739556
 Café mais prosa,cafemaisprosa ,"segunda a sexta - 14h às 21h,
-sábado e domingo - 15h às 21h",imagens/em-breve.png,imagens/cafe-mais-prosa.png,-8.043438335364826, -34.8931667597394
+sábado e domingo - 15h às 21h",https://res.cloudinary.com/damhz6skt/image/upload/v1681491952/recife-coffee/cafe-mais-prosa_fdaru3.png,-8.043438335364826, -34.8931667597394
 Casa Mendez,casamendezcafe,"terça a quinta - 10h às 22h,
 sexta - 10h às 23h,
 sábado - 8h às 23h,
-domingo - 8h às 21h",imagens/em-breve.png,imagens/casa-mendez.png,-8.035147653658838, -34.903441473460774
-Castigliani,castigliani ,todos os dias - 13h às 20h,imagens/em-breve.png,imagens/castigliani.png,-8.032140369743894, -34.9132939443947
+domingo - 8h às 21h",https://res.cloudinary.com/damhz6skt/image/upload/v1681491952/recife-coffee/casa-mendez_aw4ktc.png,-8.035147653658838, -34.903441473460774
+Castigliani,castigliani ,todos os dias - 13h às 20h,https://res.cloudinary.com/damhz6skt/image/upload/v1681491952/recife-coffee/castigliani_eef3ak.png,-8.032140369743894, -34.9132939443947
 Celeste Café,celestecafeoficial,"segunda a sexta - 9h às 19h,
-sábado - 9h às 16h",imagens/em-breve.png,imagens/celeste.png,-8.056806916014963, -34.88748827346268
-Coffee cube,coffeecubebr ,todos os dias – 9h às 21h,imagens/em-breve.png,imagens/coffee-cube-jaqueira.png,-8.036385635893579, -34.90242934835697
+sábado - 9h às 16h",imagens/em-breve.png,-8.056806916014963, -34.88748827346268
+Coffee cube,coffeecubebr ,todos os dias – 9h às 21h,imagens/em-breve.png,-8.036385635893579, -34.90242934835697
 Coffee cube,coffeecubebr ,"domingo a quarta - 12h às 22h,
-quinta e sábado - 12h às 23h",imagens/em-breve.png,imagens/coffee-cube-torre.png,-8.044271484819038, -34.90773184439447
+quinta e sábado - 12h às 23h",imagens/em-breve.png,-8.044271484819038, -34.90773184439447
 Contém café,contem.cafe ,"segunda a sexta - 14h30 às 20h30,
-sábados e domingos - 08h às 13h | 15h às 20h30",imagens/em-breve.png,imagens/contem-cafe.png,-8.033988652962014, -34.885913986722095
-Elã - Cafés Especiais,elacafesespeciais,todos os dias – 10h30 às 19h,imagens/em-breve.png,imagens/ela.png,-8.045671097432797, -34.89838511578878
+sábados e domingos - 08h às 13h | 15h às 20h30",imagens/em-breve.png,-8.033988652962014, -34.885913986722095
+Elã - Cafés Especiais,elacafesespeciais,todos os dias – 10h30 às 19h,imagens/em-breve.png,-8.045671097432797, -34.89838511578878
 Ernest café bistrô,ernestcafebistro ,"segunda a sexta - 11h às 20h,
-domingo - 9h às 12h | 15h às 20h",imagens/em-breve.png,imagens/ernest-cafe-bistro.png,-8.045526714586952, -34.895048957109225
-Fridda café,friddacafe ,terça a domingo – 9h às 21h,imagens/em-breve.png,imagens/fridda-cafe.png,-8.192306765159303, -34.92222107345988
+domingo - 9h às 12h | 15h às 20h",imagens/em-breve.png,-8.045526714586952, -34.895048957109225
+Fridda café,friddacafe ,terça a domingo – 9h às 21h,imagens/em-breve.png,-8.192306765159303, -34.92222107345988
 Grão cheff,graocheffcafes ,"segunda a sexta - 10h às 20h,
-sábado e domingo – 15h às 20h",imagens/em-breve.png,imagens/grao-cheff.png,-8.045438752771899, -34.89380956741169
-Kaffe,kaffe.tt ,terça a domingo - 13h às 19h,imagens/em-breve.png,imagens/kaffe-boa-viagem.png,-8.108479211672766, -34.89039845973919
+sábado e domingo – 15h às 20h",imagens/em-breve.png,-8.045438752771899, -34.89380956741169
+Kaffe,kaffe.tt ,terça a domingo - 13h às 19h,imagens/em-breve.png,-8.108479211672766, -34.89039845973919
 Kaffe,kaffe.tt ,"terça a sexta - 14h às 20h,
-sábado e domingo - 8h30 às 12h30 | 15h às 20h",imagens/em-breve.png,imagens/kaffe-espinheiro.png,-8.04435933831656, -34.89238237346067
+sábado e domingo - 8h30 às 12h30 | 15h às 20h",imagens/em-breve.png,-8.04435933831656, -34.89238237346067
 Kairos Café,kairoscafebr,"segunda a sábado – 13h30 às 19h30,
-domingo - 9h às 15h",imagens/em-breve.png,imagens/kairos.png,-8.04262207467629, -34.8987051157889
+domingo - 9h às 15h",imagens/em-breve.png,-8.04262207467629, -34.8987051157889
 La Fuent cafés especiais,lafuentcafe,"segunda a sábado – 10h às 19h,
-domingo – 13h às 19h",imagens/em-breve.png,imagens/la-fuent.png,-8.126087608650575, -34.89907484462427
+domingo – 13h às 19h",imagens/em-breve.png,-8.126087608650575, -34.89907484462427
 Livraria da praça,livrariadapraca ,"segunda a sábado – 9h às 20h,
-domingo e feriados– 11h às 21h",imagens/em-breve.png,imagens/livraria-praca.png,-8.034071576539324, -34.919515044394714
+domingo e feriados– 11h às 21h",imagens/em-breve.png,-8.034071576539324, -34.919515044394714
 O melhor cantinho da cidade,omelhorcantinhodacidade ,"segunda a quarta – 11h às 20h30,
 quinta a sábado – 9h às 20h30,
-domingo – 15h às 20h30",imagens/em-breve.png,imagens/o-melhor-cantinho-cidade.png,-8.049867808746093, -34.95811175811727
-Olinda café,olindacafe_ ,todos os dias – 16h às 21h,imagens/em-breve.png,imagens/olinda-cafe.png,-7.992156950987504, -34.83922467531206
-Palatsi,palatsirecife ,segunda a sexta - 7h30 às 20h,imagens/em-breve.png,imagens/palatsi.png,-8.064596516853813, -34.896697986722266
-Santa Clara café,santaclararecife ,todos os dias – 8h às 21h,imagens/em-breve.png,imagens/santa-clara-gracas.png,-8.048289484722805, -34.90129377508412
-Santa Clara café,santaclararecife ,todos os dias – 8h às 21h,imagens/em-breve.png,imagens/santa-clara-parnamirim.png,-8.03315476443418, -34.908726046476055
+domingo – 15h às 20h30",imagens/em-breve.png,-8.049867808746093, -34.95811175811727
+Olinda café,olindacafe_ ,todos os dias – 16h às 21h,imagens/em-breve.png,-7.992156950987504, -34.83922467531206
+Palatsi,palatsirecife ,segunda a sexta - 7h30 às 20h,imagens/em-breve.png,-8.064596516853813, -34.896697986722266
+Santa Clara café,santaclararecife ,todos os dias – 8h às 21h,imagens/em-breve.png,-8.048289484722805, -34.90129377508412
+Santa Clara café,santaclararecife ,todos os dias – 8h às 21h,imagens/em-breve.png,-8.03315476443418, -34.908726046476055
 Takwary Café,takwary,"quinta a sexta - 17h às 22h,
-sábado e domingo - 15h às 22h",imagens/em-breve.png,imagens/takwary.png,-7.902446328407469, -36.04565103113328
+sábado e domingo - 15h às 22h",imagens/em-breve.png,-7.902446328407469, -36.04565103113328
 Versado,versadocafe ,"segunda a sexta – 10h às 19h,
-sábado – 8h às 19h",imagens/em-breve.png,imagens/versado-gracas.png,-8.045328399184939, -34.897889217640106
+sábado – 8h às 19h",imagens/em-breve.png,-8.045328399184939, -34.897889217640106
 Versado,versadocafe ,"segunda a sexta – 10h às 19h,
-sábado – 8h às 19h",imagens/em-breve.png,imagens/versado-derby.png,-8.052592233287506, -34.900056531132385
-Versado,versadocafe ,segunda a sábado – 10h às 19h,imagens/em-breve.png,imagens/versado-boa-viagem.png,-8.112822536223243, -34.89613708695263
+sábado – 8h às 19h",imagens/em-breve.png,-8.052592233287506, -34.900056531132385
+Versado,versadocafe ,segunda a sábado – 10h às 19h,imagens/em-breve.png,-8.112822536223243, -34.89613708695263
 Xêro café e arte,xerocafe ,"terça a sábado - 16h30 às 21h,
-domingo - 9h às 11h30 | 15h às 19h",imagens/em-breve.png,imagens/xero.png,-8.006218684805171, -34.84355550044551
+domingo - 9h às 11h30 | 15h às 19h",imagens/em-breve.png,-8.006218684805171, -34.84355550044551
 Zoco café e delícias,cafezoco,"terça a sábado - 15h às 21h,
-domingo - 15h às 20h",imagens/em-breve.png,imagens/zoco.png, -7.9892575, -34.8405186
+domingo - 15h às 20h",imagens/em-breve.png, -7.9892575, -34.8405186
